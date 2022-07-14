@@ -1,9 +1,10 @@
 import './App.css';
-import logo from './images/logo.jpeg'
+import Menu from './components/menu/menu'
 
 function App() {
     return (
         <>
+            <Menu />
         </>
     );
 }

@@ -1,0 +1,21 @@
+.menuContent {
+  @apply w-full cursor-grab;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  .menuContainer {
+    height: 150px;
+    width: fit-content;
+    @apply bg-amber-300 flex justify-evenly items-center;
+    .subMenu {
+      width: 100px;
+      height: 100px;
+      @apply rounded-full bg-amber-800 flex items-center justify-center;
+    }
+  }
+}
+
+//.menuContent::-webkit-scrollbar {
+//  display: none;
+//}
